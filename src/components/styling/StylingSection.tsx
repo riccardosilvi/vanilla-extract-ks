@@ -1,6 +1,7 @@
 import { CssVars } from "./cssVars";
 import { Basics } from "./basics";
 import { MediaQueries } from "./mediaQueries";
+import { Selectors } from "./selectors";
 
 export const StylingSection = () => {
   return (
@@ -8,6 +9,7 @@ export const StylingSection = () => {
       <Basics />
       <CssVars />
       <MediaQueries />
+      <Selectors />
     </div>
   );
 };
