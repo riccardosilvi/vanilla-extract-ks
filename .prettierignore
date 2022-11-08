@@ -23,5 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-# Storybook example
+# Storybook example and config
 src/stories
+.storybook/
+
+# vite config
+vite.config.ts
+
