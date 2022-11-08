@@ -1,3 +1,11 @@
+import { CssVars } from "./cssVars";
+import { Basics } from "./basics";
+
 export const StylingSection = () => {
-  return <div>styling section</div>;
+  return (
+    <div>
+      <Basics />
+      <CssVars />
+    </div>
+  );
 };

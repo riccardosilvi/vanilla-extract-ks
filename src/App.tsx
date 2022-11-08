@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import "./App.css";
 import { StylingSection } from "./components/styling/StylingSection";
+import { appStyle } from "./app.css";
 
 type SectionName = "styling" | "theming" | "composition";
 
@@ -17,7 +17,7 @@ function App() {
   const SectionComponent = SECTIONS_COMPONENTS[currentSection];
 
   return (
-    <div className="App">
+    <div className={`App ${appStyle}`}>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
